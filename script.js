@@ -43,8 +43,35 @@ function generatePassword() {
       var askspecial = window.confirm('Click OK to include special characters');
     }
 
-    //for (var i = 0; i < )
-  };
+    //if they selected to include the variable, create a new variable that has all the possible options
+    var possibleOptions = []
+
+    if (asklower) {
+      possibleOptions = possibleOptions.concat(lower)
+    }
+
+    if (askupper) {
+      possibleOptions = possibleOptions.concat(upper)
+    }
+
+    if (asknumeric) {
+      possibleOptions = possibleOptions.concat(numeric)
+    }
+
+    if(askspecial) {
+      possibleOptions = possibleOptions.concat(special)
+    }
+
+    console.log(possibleOptions)
+
+    //build the password based on above possible options
+    var randomPassword = ""
+    for (var i = 0; i < lengthprompt; i++) {
+      randomPassword = randomPassword + possibleOptions[Math.floor(Math.random() * possibleOptions.length)];
+      console.log(randomPassword)
+    }
+    return randomPassword;
+  }
 
 // Write password function
 function writePassword () {
