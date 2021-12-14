@@ -13,7 +13,7 @@ When you click Generate Password, you will be asked how many characters between 
 ![Password-Generator screen shot](https://github.com/sper0054/Password-Generator/blob/main/Screen%20Shot%202021-12-14%20at%202.48.10%20PM.png)
 
 ## Links
-[Password-Generator website](https://sper0054.github.io/Portfolio/)
+[Password-Generator website](https://sper0054.github.io/Password-Generator/)
 
 ## Acknowledgments
 This is the week 3 challenge project of Michigan St. full-stack web development coding bootcamp.
