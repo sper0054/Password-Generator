@@ -10,7 +10,7 @@ When you click Generate Password, you will be asked how many characters between 
 * JavaScript
 
 ## Screen Shots
-![Password-Generator screen shot](https://github.com/sper0054/Portfolio/blob/main/Screenshot.png)
+![Password-Generator screen shot](https://github.com/sper0054/Password-Generator/blob/main/Screen%20Shot%202021-12-14%20at%202.48.10%20PM.png)
 
 ## Links
 [Password-Generator website](https://sper0054.github.io/Portfolio/)
